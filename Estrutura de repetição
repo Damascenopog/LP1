@@ -1,5 +1,5 @@
 lista = []
-serie = []
+preferencia = []
 print ('Digite 20 nomes')
 for i in range(20):
     print ('nomes', i)
@@ -9,9 +9,9 @@ for i in range(20):
 print('Digite a preferencia de cada pessoa, entre batman e super-man')
 for i in range(20):
     print(lista[i],'prefere:')
-    serie.append(input())
+    preferencia.append(input())
     print('\n')
     
 for i in range(20):
-    print(lista[i], 'prefere assitir:', serie[i])
+    print(lista[i], 'prefere assitir:', preferencia[i])
     
