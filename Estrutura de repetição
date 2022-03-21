@@ -1,0 +1,17 @@
+lista = []
+serie = []
+print ('Digite 20 nomes')
+for i in range(20):
+    print ('nomes', i)
+    lista.append(input())
+    print ('\n')
+
+print('Digite a preferencia de cada pessoa, entre batman e super-man')
+for i in range(20):
+    print(lista[i],'prefere:')
+    serie.append(input())
+    print('\n')
+    
+for i in range(20):
+    print(lista[i], 'prefere assitir:', serie[i])
+    
