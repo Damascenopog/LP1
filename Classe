@@ -1,0 +1,44 @@
+class Aluno: _init_(self, nome, matricula, email):
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+def
+
+self.nome nome
+
+self.matricula = matricula
+
+self.email = email
+
+9 cadastro_alunos = [] 10 opcao= 'S'
+
+while opcao== 'S' or opcao== 's': print('Qual nome do aluno? ) 12
+
+
+13 14 = input() print('Qual a matricula dele? ') matricula=input()
+
+15 16 print('Qual o email dele ') 17 email input() 18 novo_aluno = Aluno (nome, matricula, email) 19 cadastro_alunos.append(novo_aluno) 20 print('Deseja cadastrar mais um aluno? [S/N]') 21 opcao=input()
+
+22
+
+23
+
+24
+
+25 for Aluno in cadastro_alunos: 26 print('Nome', Aluno.nome)
+
+27 print('Matriculat Aluno.matricula)
+
+28 print('E- mail', Aluno.email)
